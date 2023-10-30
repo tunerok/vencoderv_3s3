@@ -5,6 +5,8 @@ CC = gcc
 
 .PHONY: clean
 
+all: main
+
 main: main.c
 	$(CC) -o '$@' '$<'
 
